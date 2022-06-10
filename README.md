@@ -127,3 +127,9 @@ plt.show()
 ![png](README_files/README_7_0.png)
     
 
+# Extras
+Convert Jupyter Notebook to Markdown:
+```
+pip install jupyter
+jupyter nbconvert --output='README.md' main.ipynb --to markdown
+```
